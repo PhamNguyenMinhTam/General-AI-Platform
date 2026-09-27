@@ -1,0 +1,26 @@
+# Replace placeholders with the real repository identities before enabling branch protection.
+* @platform-engineer
+
+# Core infrastructure remains Platform Engineer-owned.
+/architecture/ @platform-engineer
+/compute/ @platform-engineer
+/network/ @platform-engineer
+/storage/ @platform-engineer
+/containers/ @platform-engineer
+/data-services/ @platform-engineer
+/security/ @platform-engineer
+/observability/ @platform-engineer
+/automation/provisioning/ @platform-engineer
+/automation/deployment/ @platform-engineer
+/automation/maintenance/ @platform-engineer
+
+# Developer-facing examples require shared review.
+/developer/ @platform-engineer @project-ai-engineer
+/ai-runtime/ @platform-engineer @project-ai-engineer
+/model-serving/ @platform-engineer @project-ai-engineer
+/automation/cicd/ @platform-engineer @project-ai-engineer
+/tests/acceptance/ @platform-engineer @project-ai-engineer
+/docs/developer/ @platform-engineer @project-ai-engineer
+
+# Security remains Platform Engineer-owned.
+/security/ @platform-engineer
